@@ -6,6 +6,7 @@ export default function FormHex({converter}: FormHexProps) {
           <div className="input_wrapper">
             <input
                 type="text"
+                maxLength={7}
                 placeholder="HEX, #..."
                 className="input_hex"
                 onChange={converter}
